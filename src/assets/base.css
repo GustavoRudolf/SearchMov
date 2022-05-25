@@ -30,6 +30,7 @@ body {
 }
 #corpo{
   grid-area: main;
+  flex-direction: column;
 }
 #content {
   grid-area: content;
@@ -78,4 +79,57 @@ body {
   background-color: #a5acab;
   color: #000000;
   
+}
+.login-style {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 15px;
+  color: #fff;
+}
+.input-style {
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.button-style {
+  background-color: dodgerblue;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.button-style:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resultado{
+  display: flex;
+}
+.input-pesquisa{
+  margin: 10px;
+}
+.resultados{
+  margin-left: 15px;
+  display: flex;
 }
